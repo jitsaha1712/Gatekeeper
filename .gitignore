@@ -1,0 +1,44 @@
+
+# Private secrets
+.gatekeeper-key
+.env
+.env.*
+!.env.example
+
+# Logs and temporary output
+*.log
+compile-output.txt
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Django local database
+db.sqlite3
+*.sqlite3
+*.sqlite3-journal
+
+# React / Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+dist-ssr/
+
+# Compiled C++ programs
+*.exe
+*.o
+*.obj
+# Local token-generation utility
+token_gen.cpp
+
+# Local editor settings
+.vscode/
+.idea/
+.django-secret-key
+
+# Local third-party Git repository
+third_party/
